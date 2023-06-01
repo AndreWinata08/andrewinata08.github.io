@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
         :root{
             font-family: sans-serif;
@@ -21,7 +22,7 @@
         }
         #about{
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
         }
         #contact img{
             width: 24px;
@@ -49,6 +50,13 @@
             color: white;
             text-decoration: none;
         }
+        #page {
+            max-width: 800px;
+            margin: auto;
+        }
+        #me,#skill,#contact{
+            margin-bottom: 100px;
+        }
     </style>
     <title>Portofolio</title>
 </head>
@@ -57,6 +65,7 @@
         <h1>Portofolio</h1>
        <div><a href="#me">About Me</a> <a href="#skill">Skill</a> <a href="#contact">Contact</a></div>
     </div>
+    <div id = "page">
     <div id = "intro">
         <img src="porto.png">
         <h2>
@@ -109,5 +118,6 @@ I was born in September 6th 2002
         <p><img src="youtube.png">: Andre N a s h (@andrenash6436)</p>
         <p><img src="facebook.png">: Andre Winata</p>
     </div>
+</div>
 </body>
 </html>
