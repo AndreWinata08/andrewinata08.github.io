@@ -1,10 +1,113 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Document</title>
+    <style>
+        :root{
+            font-family: sans-serif;
+        }
+        .porto{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        body{
+            background-image: url(Background.jpg);
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+        #intro{
+            text-align: center;
+        }
+        #about{
+            display: flex;
+            justify-content: space-around;
+        }
+        #contact img{
+            width: 24px;
+            vertical-align: text-top;
+            margin-right: 4px;
+        }
+        #skill img{
+            width: 64px;
+            margin-right: 28px;
+        }
+        #skill div{
+            display: flex;
+            align-items: center;
+        }
+        #iden img{
+            width: 164px;
+            margin-right: 12px;
+        }
+        #iden{
+            display: flex;
+            align-items: center;
+        }
+        .porto a{
+            margin: 12px;
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+    <title>Portofolio</title>
 </head>
-  
 <body>
-    <h1>Andre Winata's Page</h1>
+    <div class = "porto">
+        <h1>Portofolio</h1>
+       <div><a href="#me">About Me</a> <a href="#skill">Skill</a> <a href="#contact">Contact</a></div>
+    </div>
+    <div id = "intro">
+        <img src="porto.png">
+        <h2>
+            Hi, I'm Andre Winata And Welcome To My Portofolio Page
+            Let's Get To Know Me
+        </h2>
+    </div>
+    <div id = "me">
+        <h1>About Me:</h1>
+        <div id = "iden"><img src="photo.png"><p>
+            My name is Andre Winata
+I’m Digital Business Major college student in Widya Dharma University Pontianak Since 2021 - Now
+I was born in September 6th 2002 
+        </p></div>
+        <div id = "about">
+            <div>
+        <h2>Language:</h2>
+        <ul>
+            <li>Indonesia</li>
+            <li>English (83%)</li>
+            <li>Japanese (30%)</li>
+            <li>Mandarin (25)</li>
+        </ul>
+        </div>
+        <div>
+        <h2>Interest In:</h2>
+        <ul>
+            <li>Learning Other Language</li>
+            <li>Gadgets</li>
+            <li>Listening To Music</li>
+            <li>Digital Related</li>
+        </ul>
+        </div>
+        </div>
+    </div>
+    <div id = "skill">
+        <h2>Skills/Experience:</h2>
+        <ul>
+            <div><img src = "word.png"><li>Microsoft Word</li></div>
+            <div><img src = "excel.png"><li>Microsoft Excel</li></div>
+            <div><img src = "access.png"><li>Microsoft Access</li></div>
+        </ul>
+    </div>
+    <div id = "contact">
+        <h2>My Contact & Media:</h2>
+        <p><img src="whatsapp.png">: +6282350718702</p>
+        <p><img src="discord.png">: Andre N a s h#6436</p>
+        <p><img src="instagram.png">: andre_winata86</p>
+        <p><img src="gmail.png">: winataandre08@gmail.com</p>
+        <p><img src="youtube.png">: Andre N a s h (@andrenash6436)</p>
+        <p><img src="facebook.png">: Andre Winata</p>
+    </div>
 </body>
 </html>
